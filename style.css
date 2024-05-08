@@ -520,6 +520,7 @@ body {
   background-color:
     rgba(246, 247, 248, 1);
   margin-top: 78px;
+  padding-bottom: 110px;
 }
 
 .partners__title {
@@ -536,40 +537,40 @@ body {
 
 .partners__names {
   display: grid;
-  
+
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0;
   padding-right: 49px;
   padding-left: 64px;
 }
 
-.partners__name{
-list-style: none;
-align-self: center;
+.partners__name {
+  list-style: none;
+  align-self: center;
 }
 
-.partners__name-three{
- margin-left: 78px;
+.partners__name-three {
+  margin-left: 78px;
 }
 
-.connection{
+.connection {
   display: flex;
   justify-content: space-between;
   margin-left: 170px;
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
-.connection__form-text{
+.connection__form-text {
   font-family: Open Sans;
   font-weight: 600;
   font-size: 40px;
   line-height: 31px;
   color:
     rgba(51, 51, 51, 1);
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.connection__form-info{
+.connection__form-info {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 10px;
@@ -577,25 +578,87 @@ align-self: center;
 
 }
 
-.connection__form-button{
+.connection__form-button {
   font-family: Open Sans;
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
-  background-color: 
-  rgba(63, 143, 53, 1);
+  background-color:
+    rgba(63, 143, 53, 1);
   width: 183px;
-  height: 27px;
-  color: 
-  rgba(255, 255, 255, 1);
+  height: 47px;
+  color:
+    rgba(255, 255, 255, 1);
   border-radius: 12px;
   border: none;
 }
 
-.connection__form-input-name{
-  width: 168px;
+.connection__form-input-name {
+  width: 138px;
   height: 47px;
   border-radius: 12px;
+  padding-left: 30px;
+  font-size: 16px;
+  border: none;
+
 }
 
+.connection__form-input-mail {
+  padding-left: 30px;
+  font-size: 16px;
+  width: 328px;
+  height: 47px;
+  border-radius: 12px;
+  border: none;
 
+}
+
+.connection__form-info {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 31px;
+  color:
+    rgba(51, 51, 51, 1);
+}
+
+.contacts {
+  margin-top: 40px;
+}
+
+.contacts__img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  background-color:
+    rgba(246, 247, 248, 1);
+  justify-content: space-between;
+  padding-left: 145px;
+  padding-right: 130px;
+  padding-top: 55px;
+}
+
+.list {
+  list-style: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.list-one {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__help-block {
+  margin-top: 10px;
+}
